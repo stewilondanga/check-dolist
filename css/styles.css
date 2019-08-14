@@ -94,11 +94,11 @@ span.close {
   color: #fff
 }
 
-/*input[type="checkbox"] {
+input[type="checkbox"] {
   cursor: pointer;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
