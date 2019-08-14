@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,92 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+*/
+body {
+  background: #007991;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #78ffd6, #007991);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #78ffd6, #007991);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+/*
+#toDo, #done, #notes {
+  box-sizing: border-box;
+  width: 48%;
+  float: left;
+  background: #fff;
+  margin: 100px 1% 10px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 7px 0px #333;
+}
+
+#toDo {
+  margin-bottom: 20px;
+}
+
+#done {
+  margin-top: 20px;
+}
+
+#toDo ul li, #done ul li {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+h2 {
+  color: #000;
+  font-size: 1.75em;
+  background: #fff;
+  max-width: 50%;
+  padding: 7px 3px 7px 30px;
+  margin-left: -30px;
+}
+
+#notes h2 {
+  color: #000;
+}
+
+.header {
+  background: url('http://s0.geograph.org.uk/geophotos/04/98/07/4980798_9dcb3c81.jpg')no-repeat center top;
+  background-size: cover;
+  padding: 20px 30px;
+}
+
+#notes .content {
+  padding: 20px 30px;
+}
+
+span.close {
+  cursor: pointer;
+}
+
+#notes textarea {
+  border: none;
+  width: 100%;
+  min-height: 150px;
+  background-attachment: local;
+  background-image:
+  linear-gradient(to right, white 0px, transparent 0px),
+  linear-gradient(to left, white 0px, transparent 0px),
+  repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+  line-height: 31px;
+  padding: 8px 0px;
+  font-size: 18px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#notes h2 {
+  margin-bottom: 2px;
+  background: #000;
+  color: #fff
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
 }
 
 .containers {
