@@ -37,11 +37,11 @@ body {
   margin-bottom: 20px;
 }
 
-/*#done {
+#done {
   margin-top: 20px;
 }
 
-#toDo ul li, #done ul li {
+/*#toDo ul li, #done ul li {
   list-style-type: none;
   margin-left: 0px;
 }
