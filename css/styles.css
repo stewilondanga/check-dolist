@@ -23,7 +23,6 @@ body {
   height: 1.5em;
 }
 
-/*
 #toDo, #done, #notes {
   box-sizing: border-box;
   width: 48%;
@@ -34,7 +33,7 @@ body {
   box-shadow: 1px 2px 7px 0px #333;
 }
 
-#toDo {
+/*#toDo {
   margin-bottom: 20px;
 }
 
